@@ -61,3 +61,6 @@ class HyperParam(object):
 if __name__ =='__main__':
     HP = HyperParam(1, 1)
     HP.update_from_data_by_moment(temp[col_q+"_count"].values, temp[col_q+"_click"].values)
+
+#删除git
+ git remote rm origin
